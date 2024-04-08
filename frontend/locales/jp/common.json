@@ -1,0 +1,26 @@
+{
+  "CURRENT_LOCALE": "ja",
+
+"cafeteriaSelene": "カフェテリアセレネは、平日の午前11時から午後2時までランチタイムです",
+ 
+  "SELECT CAMPUS LOCATION": "キャンパスの場所を選択してください",
+  "Participate in online survey": "オンラインアンケートに参加する",
+  "Project Explanations &  Acknowledgements": "プロジェクトの説明と謝辞",
+  "Main Cafeteria Entrance": "Bクラスター食堂入口",
+  "Main Cafeteria Exit": "Bクラスター食堂出口",
+  "Inside Main Cafeteria": "Bクラスター食堂内",
+  "C Cluster Administration Office": "Cクラスター事務室",
+  "C1 Entrance": "C1棟入口",
+  "B Cluster Administration Office": "Bクラスター事務室",
+  "Katsura Main Library": "桂図書館",
+  "A4 Rear Entrance": "A4棟入口",
+  "P3P Parking Mae": "P3P棟駐車場前",
+  "Boulangerie Seri Bakery": "ベーカリーカフェ「Boulangerie Seri」",
+  "As busy as usual.": "いつもと同じくらいです。",
+  "Much busier than usual.": "いつもより混んでいます。",
+  "Busier than usual.": "いつもより少し混んでいます。",
+  "Much less busy than usual.": "いつもよりすいています。",
+  "Less busy than usual.": "いつもより少しすいています。"
+}
+
+

@@ -1,0 +1,230 @@
+/* global.css */
+
+/* Import Tailwind CSS styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+/* Your additional global styles */
+/* Add your custom global styles here */
+
+
+
+.container {
+  max-width: 120px;
+  margin: 120px;
+  padding: 20px; /* Adjust the padding value according to your needs */
+}
+
+/* Add more custom styles as needed */
+h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  fontFamily: 'DM Sans', // Setting font family to DM Sans
+
+ 
+
+}
+
+p {
+  line-height: 1.5;
+}
+.rolling-beat {
+  font-family: 'Rolling Beat', cursive;
+}
+
+.bg {
+  background-image: url('../images/CCluster.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.description-box {
+  padding: 1rem; /* Adjust as needed */
+  border-radius: 10px; /* Adjust as needed */
+  color: white; /* Text color set to white */
+  font-family: sans-serif; /* Specify Calibri (Body) font and fallback sans-serif */
+  font-size: 18px; /* Increase font size as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background (adjust the alpha value as needed) */
+  word-spacing: -2px; /* Adjust as needed to reduce space between words */
+}
+
+.zoom-in {
+  animation: zoomInAnimation 0.5s ease forwards;
+}
+
+@keyframes zoomInAnimation {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.block-heading {
+  font-family: Arial black, sans-serif;
+  font-size: 40px;
+  color: black;
+  display: block;
+}
+
+.white-text {
+  color: white;
+}
+
+.pad-color {
+  background-color: blue;
+}
+
+.pad-color:active {
+  background-color: transparent;
+}
+
+.pad-color:focus {
+  background-color: blue;
+}
+
+.pad-color::selection {
+  background-color: transparent;
+}
+
+.header-bg {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired transparency */
+}
+
+.orange-link {
+  position: relative; /* Required for absolute positioning of arrow */
+  color: black;
+  background-color: #66d9ff; /* Adding white background */
+  padding: 0.2em 0.4em; /* Adding padding to the links */
+  border-radius: 4px; /* Adding border radius for rounded corners */
+  text-decoration: none; /* Removing underline from links */
+}
+
+.orange-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -9px; /* Adjust as needed */
+  transform: translateY(-50%);
+  border-width: 9px 0 9px 9px;
+  border-style: solid;
+  border-color: transparent transparent transparent orange;
+}
+
+.about {
+  background-image: url('../images/CCluster.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+.kyodai-logo {
+  border: 5px solid blue; /* Example of a highlight effect */
+}
+
+
+
+.dropbtn {
+  color: white;
+  font-family: Yu Gothic;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 20px; /* Add padding */
+  background-color: rgba(179, 107, 0, 10); /* Orange background with opacity */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.1s, color 0.1s; /* Add transition for smoother animation */
+}
+
+.dropbtn:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Adjust opacity on hover */
+  transform: translateY(-5px); /* Move button upward on hover */
+  color: black; /* Change text color to black on hover */
+}
+
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/CCluster.jpg"); /* Adjust the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; /* Ensure the background image is behind other content */
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  /* Add other styling for content container */
+}
+
+
+.contact-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/CCluster.jpg"); /* Adjust the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; /* Ensure the background image is behind other content */
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  /* Add other styling for content container */
+}
+
+
+.privacy-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/CCluster.jpg"); /* Adjust the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1; /* Ensure the background image is behind other content */
+}
+
+
+.full-page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+   background-repeat: no-repeat;
+  z-index: -1; /* Ensure the background is behind other content */
+}
+
+
+
+.chart-container {
+  position: relative;
+}
+
+.historical-average {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+}
